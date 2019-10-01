@@ -41,7 +41,7 @@
       "label": "Instance count",
       "description": "Number of instances",
       "type": "string",
-      "default": "ami-011b3ccf1bd6db744",
+      "default": "1",
       "validation": "",
       "group_name": "instance-settings",
       "required": true,
