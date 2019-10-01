@@ -26,6 +26,7 @@ data "aws_security_group" "group_name" {
 
 resource "aws_instance" "citi-rhel-vm" {
   ami = "${var.citi-rhel-vm_ami}"
+  count = "${var.instance_count}"
   key_name = "${var.aws_key_pair_name}"  # Generated
   instance_type = "${var.citi-rhel-vm_aws_instance_type}"
   subnet_id  = "${data.aws_subnet.subnet.id}"
