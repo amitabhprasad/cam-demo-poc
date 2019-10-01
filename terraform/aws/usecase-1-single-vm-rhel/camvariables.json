@@ -47,7 +47,7 @@
       "required": true,
       "secured": false,
       "hidden": false,
-      "immutable": true,
+      "immutable": false,
       "immutable_after_create": false
     },
     {
