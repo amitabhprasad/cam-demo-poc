@@ -48,4 +48,6 @@ variable "volume_count" {
   type = "string"
   description = "Generated"
 }
-
+variable "instance_count" {
+  default = "2"
+}
