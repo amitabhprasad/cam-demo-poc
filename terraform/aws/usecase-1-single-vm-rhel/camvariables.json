@@ -37,6 +37,20 @@
       "immutable_after_create": false
     },
     {
+      "name": "instance_count",
+      "label": "Instance count",
+      "description": "Number of instances",
+      "type": "string",
+      "default": "ami-011b3ccf1bd6db744",
+      "validation": "",
+      "group_name": "instance-settings",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": true,
+      "immutable_after_create": false
+    },
+    {
       "name": "citi-rhel-vm_aws_instance_type",
       "label": "Instance size",
       "description": "Size of instance to create",
